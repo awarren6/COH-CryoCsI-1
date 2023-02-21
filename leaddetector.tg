@@ -12,13 +12,13 @@
 //:place water 6 hall r000 0*cm 0*cm 0.0*cm
 //:color water 0.7 0.2 0.4
 
-:volu lead BOX 70*cm 70*cm 70*cm G4_Pb
+:volu lead BOX 70*cm 70*cm 20*cm G4_Pb
 :place lead 21 hall r000 0*cm 0*cm 0.0*cm
 :color lead 0.7 0.8 0.1
 
-//:volu fancylead BOX 20*cm 20*cm 30*cm G4_Pb
-//:place fancylead 22 lead r000 0*cm 0*cm 0.0*cm
-//:color fancylead 0.2 0.2 0.1
+:volu vacuum BOX 70*cm 70*cm 20*cm G4_Galactic
+:place vacuum 22 hall r000 0*cm 0*cm -40*cm
+:color vacuum 0.2 0.2 0.1
 
 //:volu polyeth BOX 15*cm 15*cm 25*cm G4_POLYETHYLENE
 //:place polyeth 23 fancylead r000 0*cm 0*cm 0*cm
