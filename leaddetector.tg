@@ -12,7 +12,7 @@
 //:place water 6 hall r000 0*cm 0*cm 0.0*cm
 //:color water 0.7 0.2 0.4
 
-:volu lead BOX 70*cm 70*cm .5*cm G4_Pb
+:volu lead BOX 70*cm 70*cm 3*cm G4_Pb
 :place lead 21 hall r000 0*cm 0*cm 0.0*cm
 :color lead 0.7 0.8 0.1
 
