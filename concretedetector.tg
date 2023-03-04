@@ -16,8 +16,8 @@
 :place concrete 1 hall r000 0*cm 0*cm 0.0*cm
 :color concrete 0.7 0.8 0.1
 
-:volu vacuum(S) BOX 100*cm 100*cm 20*cm G4_Galactic
-:place vacuum(S) 2 hall r000 0*cm 0*cm -70*cm
+:volu vacuum(S) BOX 100*cm 100*cm .1*cm G4_Galactic
+:place vacuum(S) 2 hall r000 0*cm 0*cm -50.1*cm
 :color vacuum(S) 0.2 0.2 0.1
 
 //:volu polyeth BOX 15*cm 15*cm 25*cm G4_POLYETHYLENE
